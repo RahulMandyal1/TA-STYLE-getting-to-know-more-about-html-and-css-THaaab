@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all .3s ease-in-out;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+
+}
+section{
+    margin-top: 20px;
+    min-height: 40vh;
+    padding: 2rem 9%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 2rem 9%;
+}
+
+.logo a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #6672E5;
+  
+}
+
+nav a {
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    color: #6672E5;
+}
+
+
+section h2{
+    font-size: 3rem;
+    color: #6672E5;
+   
+}
+
+section article{
+    font-size:1.3rem;
+    margin: 10px 0;
+}
+.secondarticle{
+    margin-bottom: 5rem;
+}
+/* Footer section strats from here  */
+
+footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color:#6672E5;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    padding: 2rem 9%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    
+}
+footer p a{
+    color: #000;
+    font-weight:700;
+}
+ /* footer section ends here  */
+
+
+ /* floating back  to top  menu styling starts here 
+  */
+
+.floatingbcktp{
+    position:fixed;
+    width: 100px;
+    right: 10px;
+    bottom: 10rem;
+    height: auto;
+    background-color:#6672E5;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .4rem 1.2rem;
+    border-radius: 16px;
+}
+  /* ends here  */
+ @media only screen and (max-width: 600px) {
+    html{
+        font-size: 55%;
+    }
+  }
